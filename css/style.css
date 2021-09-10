@@ -62,6 +62,30 @@ body {
 /* GENERAL REUSABLE COMPONENTS */
 /* ****************************************** */
 
+.container {
+  /* 1140px */
+  max-width: 120rem;
+  padding: 0 3.2rem;
+  margin: 0 auto;
+}
+
+.grid {
+  display: grid;
+  gap: 9.6rem;
+}
+
+.grid--2-cols {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.grid--3-cols {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.grid--4-cols {
+  grid-template-columns: repeat(4, 1fr);
+}
+
 .heading-primary {
   font-size: 5.2rem;
   font-weight: 700;
@@ -125,7 +149,6 @@ body {
 /* HEADER */
 /* ****************************************** */
 
-
 .header {
   background-color: #fdf2e9;
   display: flex;
@@ -145,31 +168,31 @@ body {
 /* NAVIGATION */
 /* ****************************************** */
 
-
 .main-nav-list {
-list-style: none;
-display: flex;
-align-items: center;
-gap: 3.2rem;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 3.2rem;
 }
 
 .main-nav-link:link,
-.main-nav-link:visited{
+.main-nav-link:visited {
   display: inline-block;
-text-decoration: none;
-color: #333;
-font-weight: 500;
-font-size: 1.8rem;
-transition: all 0.3s;
+  text-decoration: none;
+  color: #333;
+  font-weight: 600;
+  font-size: 1.8rem;
+  font-weight: 600;
+  transition: all 0.3s;
 }
 
 .main-nav-link:hover,
-.main-nav-link:active{
-color: #cf711f;
+.main-nav-link:active {
+  color: #cf711f;
 }
 
 .main-nav-link.nav-cta:link,
-.main-nav-link.nav-cta:visited{
+.main-nav-link.nav-cta:visited {
   padding: 1.2rem 2.4rem;
   border-radius: 9px;
   color: #fff;
@@ -177,14 +200,13 @@ color: #cf711f;
 }
 
 .main-nav-link.nav-cta:hover,
-.main-nav-link.nav-cta:active{
-background-color: #cf711f;
+.main-nav-link.nav-cta:active {
+  background-color: #cf711f;
 }
 
 /* ****************************************** */
 /* HERO SECTİON */
 /* ****************************************** */
-
 
 .section-hero {
   background-color: #fdf2e9;
@@ -247,4 +269,13 @@ background-color: #cf711f;
 .delivered-text span {
   color: #cf711f;
   font-weight: 700;
+}
+
+/* ****************************************** */
+/* HOW IT WORKS */
+/* ****************************************** */
+
+.section-how {
+  padding: 9.6rem 0;
+  background-color: orangered;
 }
