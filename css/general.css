@@ -135,8 +135,10 @@ body {
   text-decoration: none;
   padding: 1.6rem 3.2rem;
   border-radius: 9px;
+
   /* put transition on original state */
-  transition: background-color 0.3s;
+  /* transition: background-color 0.3s; */
+  transition: all 0.3s;
   /* animasyon, 1 second - saniye 
   background-color yerine all dersek açılışta da güzel bir animasyonla butonlar çıkıyor*/
 }
