@@ -240,6 +240,28 @@
   margin-bottom: 3.2rem;
 }
 
+.meal {
+  box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.075);
+  border-radius: 12px;
+  overflow: hidden;
+  /* üzerindeki fotoğrafın dışarı taşmasını engelledik, böylece kenarlar yuvarlak kaldı */
+  padding: 4.8rem;
+}
+
+.meal-tags {
+  margin-bottom: 1.2rem;
+}
+
+.tag {
+  display: inline-block;
+  padding: 0.4rem 0.8rem;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  background-color: #51cf66;
+  color: #333;
+  border-radius: 100px;
+}
+
 .meal-attributes {
   list-style: none;
   display: flex;
@@ -249,8 +271,22 @@
 
 .meal-attribute {
   font-size: 1.8rem;
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
+}
+
+.meal-icon {
+  height: 2.4rem;
+  width: 2.4rem;
+  color: #e67e22;
+  /* icon rengini ayarlıyoruz */
 }
 
 .meal-img {
   width: 100%;
+}
+
+strong {
+  font-weight: 500;
 }
