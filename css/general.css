@@ -178,3 +178,28 @@ body {
   margin-right: 1.6rem !important;
 }
 /* yüksek öncelikli hale getirdik */
+
+.link:link,
+.link:visited {
+  display: inline-block;
+  color: #e67e22;
+  text-decoration: none;
+  border-bottom: 1px solid currentColor;
+  /* currentColor dikkat et, mevcut text rengini seçmemizi sağlıyor */
+  padding-bottom: 2px;
+}
+
+.link:hover,
+.link:active {
+  color: #cf711f;
+  border-bottom: 1px solid transparent;
+  transition: all 0.3s;
+}
+
+.margin-bottom-md {
+  margin-bottom: 4.8rem !important;
+}
+
+strong {
+  font-weight: 500;
+}
