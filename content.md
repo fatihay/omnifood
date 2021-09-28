@@ -12,11 +12,11 @@ Summary
 The smart 365-days-per-year food subscription that will make you eat healthy again. Tailored to your personal tastes and nutritional needs. We have delivered 250,000+ meals last year!
 
 Omnifood features
-Never cook again!: Our subscriptions cover 365 days per year, even including major holidays. 
+Never cook again!: Our subscriptions cover 365 days per year, even including major holidays.
 
-Local and organic: Our cooks only use local, fresh, and organic products to prepare your meals. 
+Local and organic: Our cooks only use local, fresh, and organic products to prepare your meals.
 
-No waste: All our partners only use reusable containers to package all your meals. 
+No waste: All our partners only use reusable containers to package all your meals.
 
 Pause anytime: Going on vacation? Just pause your subscription, and we refund unused days.
 
@@ -91,4 +91,6 @@ Address: 623 Harrison St., 2nd Floor, San Francisco, CA 94107 Phone: 415-201-637
 Social profiles: instagram, facebook, twitter [links to them not available yet]
 
 Additional links [links not available yet]
-Create account Sign in iOS app Android app About Omnifood For Business Cooking partners Careers Recipe directory Help center Privacy & terms
+Create account Sign in iOS app Android app About Omnifood For Business Cooking partners Careers Recipe directory
+Help center
+Privacy & terms
