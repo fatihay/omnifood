@@ -66,6 +66,19 @@
   padding: 4.8rem 0 9.6rem 0;
 }
 
+@media (max-width: 1200px) {
+  .section-hero {
+    background-color: orangered;
+  }
+}
+
+@media (max-width: 600px) {
+  .section-hero {
+    border: 20px dashed blue;
+    background-color: blue;
+  }
+}
+
 .hero {
   max-width: 130rem;
   margin: 0 auto;
@@ -598,35 +611,34 @@
   /* footer'ı üstteki alandan ayırmak için ince bi çizgi çektik */
 }
 
-.grid--footer{
+.grid--footer {
   grid-template-columns: 1.5fr 1.5fr 1fr 1fr 1fr;
 }
 
-.logo-col{
+.logo-col {
   display: flex;
   flex-direction: column;
 }
 
-.footer-logo{
-  
+.footer-logo {
   display: block;
   /*linke dikey boşluk vermek için onu blok düzey elemana çevirmemiz gerekiyor  */
 
   margin-bottom: 3.2rem;
 }
 
-.social-links{
+.social-links {
   list-style: none;
   display: flex;
   gap: 2.4rem;
 }
 
-.social-icon{
+.social-icon {
   height: 2.4rem;
   width: 2.4rem;
 }
 
-.copyright{
+.copyright {
   font-size: 1.4rem;
   color: #767676;
   line-height: 1.6;
@@ -634,13 +646,13 @@
   /* bu numara ile parent elementin en altına hizalanmasını sağladık */
 }
 
-.footer-heading{
+.footer-heading {
   font-size: 1.8rem;
   font-weight: 500;
   margin-bottom: 4rem;
 }
 
-.contacts{
+.contacts {
   font-style: normal;
   /* italikti normale çevirdik */
 
@@ -648,11 +660,11 @@
   line-height: 1.6;
 }
 
-.address{
+.address {
   margin-bottom: 2.4rem;
 }
 
-.footer-nav{
+.footer-nav {
   list-style: none;
   display: flex;
   flex-direction: column;
@@ -660,7 +672,7 @@
 }
 
 .footer-link:link,
-.footer-link:visited{
+.footer-link:visited {
   text-decoration: none;
   font-size: 1.6rem;
   color: #767676;
@@ -668,6 +680,6 @@
 }
 
 .footer-link:hover,
-.footer-link:active{
-color: #555;
+.footer-link:active {
+  color: #555;
 }
