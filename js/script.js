@@ -114,6 +114,9 @@ function checkFlexGap() {
 }
 checkFlexGap();
 
+// Bundan sonra birkaç yıl yazacağım web yazılımlarında bu kodu eklememde fayda olabilir
+
+
   // https://unpkg.com/smoothscroll-polyfill@0.4.4/dist/smoothscroll.min.js
 
 /*
