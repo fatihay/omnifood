@@ -49,6 +49,10 @@ Medium: 11px
 
 html {
   font-size: 62.5%;
+
+  /* Does not work on Safari and Microsoft Edge */
+  /* scroll-behavior: smooth; */
+  /* çok güzel, linke tıklayınca scrool edip aşağıda ilgili bölüme gidiyor */
 }
 
 body {
